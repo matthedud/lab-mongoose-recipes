@@ -18,10 +18,10 @@ mongoose
   .then( async () => {
     await Recipe.create({
       title: "Poisson",
-      level: "Difficile",
+      level: "Amateur Chef",
       ingredients: ["Thon", "oeuf", "mayo"],
       cuisine: "Rouge",
-      dishType: "Bole",
+      dishType: "breakfast",
       image: "https://www.oceano.org/wp-content/uploads/2020/09/Thon-blanc-Collections-de-lInstitut-oceanographique-Michel-Dagnino-768x401.jpg",
       duration: 3,
       creator: "Aquaman",

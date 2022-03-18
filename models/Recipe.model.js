@@ -5,7 +5,7 @@ const recipeSchema = new Schema({
   title: { type: String, required: true },
   level: {
     type: String,
-    validate: (value) => value === "Easy Peasy" || value === "Amateur" || value === "UltraPro Chef",
+    validate: (value) => value === "Easy Peasy" || value === "Amateur Chef" || value === "UltraPro Chef",
     message: `C'est pas bien`
   },
   ingredients: [String],
